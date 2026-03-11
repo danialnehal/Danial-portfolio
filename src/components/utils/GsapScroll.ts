@@ -1,5 +1,7 @@
 import * as THREE from "three";
 import gsap from "gsap";
+// @ts-ignore
+import SplitText from "gsap-trial/SplitText";
 
 export function setCharTimeline(
   character: THREE.Object3D<THREE.Object3DEventMap> | null,
